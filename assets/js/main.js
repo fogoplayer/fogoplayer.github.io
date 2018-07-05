@@ -13,7 +13,7 @@ if (navigator.serviceWorker.controller) {
   }).then(function(reg) {
     console.log('Service worker has been registered for scope:'+ reg.scope);
   });
-}*/
+}
 
 const body = document.getElementById('body');
 projects.sort(function(a,b){

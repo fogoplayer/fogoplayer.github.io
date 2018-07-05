@@ -32,7 +32,7 @@ projects.forEach(project => {
         image.innerHTML = `<img class="activator" src="assets/images/zarin.svg" />`;
     
         const content = document.createElement('div');
-        content.className = "card-content white-text";
+        content.className = "card-content white-text activator";
     
             const title = document.createElement('span');
             title.className = "card-title";
@@ -47,18 +47,22 @@ projects.forEach(project => {
             revealTitle.className = "card-title";
             revealTitle.innerHTML = `${ project.name }<i class="material-icons right">close</i>`;
             
-            const p = document.createTextNode(project.description);
+            const p = document.createElement('p')
+            p.innerHTML=`<strong>${ project.startDate }-${ project.endDate }</strong>
+                <br>
+                <em>${ project.lessons }</em>
+                <br>
+                ${ project.description }
+                <br>
+                <a href="${ project.url }">View demo</a>`;
+
             
             description.appendChild(revealTitle);
             description.appendChild(p);
-    
-        const actions = document.createElement('div');
-        actions.className = "card-action";
-        actions.innerHTML = `<a href="${ project.url }">View project</a><a href="#">This is a link</a>`;
+            // description.appendChild(a);
 
         card.appendChild(image);
         card.appendChild(content);
-        card.appendChild(actions);
         card.appendChild(description);
 
     column.appendChild(card);

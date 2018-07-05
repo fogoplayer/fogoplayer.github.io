@@ -33,7 +33,7 @@ projects.forEach(project => {
 
         const image = document.createElement('div');
         image.className = "card-image waves-effect waves-block waves-light";
-        image.innerHTML = `<img class="activator" src="assets/images/zarin.svg" />`;
+        image.innerHTML = `<img class="activator" src="assets/images/${ project.url.split('/')[3] }.png" onerror="if (this.src != 'zarin.svg') this.src = 'assets/images/zarin.svg';"/>`;
     
         const content = document.createElement('div');
         content.className = "card-content white-text activator";

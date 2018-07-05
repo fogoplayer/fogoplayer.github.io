@@ -70,7 +70,7 @@ export const projects = [{
     lessons: 'MaterializeCSS',
     description: 'My church has these programs for teenagers to facilitate personal growth, and each has a handbook that you read through and fill out. The handbook is available online and in the Church\'s app, but not in an interactive way. I saw room for improvement, so I built my own.',
 }, {
-    name: 'swarm',
+    name: 'S.W.A.R.M.',
     url: 'https://fogoplayer.github.io/swarm',
     startDate: 'May 31 2017',
     endDate: 'May 22 2018',

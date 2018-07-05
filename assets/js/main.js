@@ -19,6 +19,10 @@ if (navigator.serviceWorker.controller) {
 }*/
 
 const body = document.getElementById('body');
+projects.sort(function(a,b){
+    if(new Date(a.endDate) < (b.endDate === 'PRESENT' ? new Date() : new Date(b.endDate))) return 1;
+    return -1;
+});
 projects.forEach(project => {
 
     const column = document.createElement('div');
@@ -36,18 +40,18 @@ projects.forEach(project => {
     
             const title = document.createElement('span');
             title.className = "card-title";
-            title.innerHTML = ` ${ project.name }<i class="material-icons right">more_vert</i>`;
+            title.innerHTML = `${ project.name }<i class="material-icons right">more_vert</i>`;
             
             content.appendChild(title);
     
         const description = document.createElement('div');
-        description.className="card-reveal"
+        description.className="card-reveal";
         
             const revealTitle = document.createElement('span');
             revealTitle.className = "card-title";
-            revealTitle.innerHTML = `${ project.name }<i class="material-icons right">close</i>`;
+            revealTitle.innerHTML = `${ project.longName ? project.longName:project.name }<i class="material-icons right">close</i>`;
             
-            const p = document.createElement('p')
+            const p = document.createElement('p');
             p.innerHTML=`<strong>${ project.startDate }-${ project.endDate }</strong>
                 <br>
                 <em>${ project.lessons }</em>

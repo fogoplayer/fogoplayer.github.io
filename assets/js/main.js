@@ -58,7 +58,8 @@ projects.forEach(project => {
                 ${ project.description }
                 <br>
                 <a href="${ project.url }">View demo</a>
-                `;
+                ${ project.url.substring(0,29) === 'https://fogoplayer.github.io/' && project.url.length > 29 ? '<br><a href="https://github.com/fogoplayer/'+project.url.substring(29)+'">View source</a>' : '' }`;
+                console.log(project.name, project.url.substring(0,29) === 'https://fogoplayer.github.io/' && project.url.length > 29);
 
             
             description.appendChild(revealTitle);
@@ -79,7 +80,6 @@ projects.forEach(project => {
         const instance = M.Sidenav.getInstance(nav);
         instance.close();
     };
-                                                                            console.log(project.name, project.url.split('/')[3]);
     li.innerHTML=`<a href="#${ project.url.split('/')[3] }">${ project.name }</a>`;
     nav.appendChild(li);
 });

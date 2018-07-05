@@ -26,7 +26,7 @@ projects.sort(function(a,b){
 projects.forEach(project => {
 
     const column = document.createElement('div');
-    column.className = "col s12 m6 l3";
+    column.className = "col s12 m6 l4";
 
     const card = document.createElement('div');
     card.className = "card";
@@ -55,7 +55,7 @@ projects.forEach(project => {
             p.innerHTML=`<strong>${ project.startDate }-${ project.endDate }</strong>
                 <br>
                 <em>${ project.lessons }</em>
-                <br>
+                <br><br>
                 ${ project.description }
                 <br>
                 <a href="${ project.url }">View demo</a>`;
@@ -63,7 +63,6 @@ projects.forEach(project => {
             
             description.appendChild(revealTitle);
             description.appendChild(p);
-            // description.appendChild(a);
 
         card.appendChild(image);
         card.appendChild(content);

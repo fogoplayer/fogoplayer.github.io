@@ -1,6 +1,6 @@
 export const projects = [{
         name: 'sCalc',
-        url:'fogoplayer.github.io/sCalc',
+        url:'https://fogoplayer.github.io/sCalc',
         startDate: new Date('2014'),
         endDate: new Date('March 31, 2016'),
         lessons: 'JQuery, DOM manipulation, Code Splitting, Github Pages',
@@ -8,7 +8,7 @@ export const projects = [{
     },
     {
         name: 'Coyote Calculator',
-        url:'fogoplayer.github.io/CoyoteCalculator',
+        url:'https://fogoplayer.github.io/CoyoteCalculator',
         startDate: new Date('July 8 2016'),
         endDate: new Date('Oct 4 2016'),
         lessons:'',
@@ -16,7 +16,7 @@ export const projects = [{
     },
     {
         name: 'Hamilton Karaoke',
-        url:'fogoplayer.github.io/karaoke',
+        url:'https://fogoplayer.github.io/karaoke',
         startDate: new Date('Oct 26, 2016'),
         endDate: new Date('Nov 1, 2016'),
         lessons:'Single Page Applications, YouTube API, @media tags',
@@ -24,7 +24,7 @@ export const projects = [{
     },
     {
         name: 'Sub-cipher',
-        url:'fogoplayer.github.io/sub-cipher',
+        url:'https://fogoplayer.github.io/sub-cipher',
         startDate: new Date('August 31, 2017'),
         endDate: new Date('Sept 1, 2017'),
         lessons:'localStorage API',
@@ -32,7 +32,7 @@ export const projects = [{
     },
     {
         name: 'Console',
-        url:'fogoplayer.github.io/console',
+        url:'https://fogoplayer.github.io/console',
         startDate: new Date('Sept 12 2017'),
         endDate: new Date('Sept 26 2017'),
         lessons:'',
@@ -40,7 +40,7 @@ export const projects = [{
     },
     {
         name: 'HTML Template',
-        url:'fogoplayer.github.io/',
+        url:'https://fogoplayer.github.io/',
         startDate: new Date('Jan 27, 2018'),
         endDate: new Date('Jan 27, 2018'),
         lessons:'',
@@ -48,7 +48,7 @@ export const projects = [{
     },
     {
         name: 'Choose Your Own Adventure',
-        url:'https://fogoplayer.github.io/Early-Projects/Choose%20Your%20Own%20Adventure',
+        url:'https://https://fogoplayer.github.io/Early-Projects/Choose%20Your%20Own%20Adventure.html',
         startDate: new Date('2012'),
         endDate: new Date('2013'),
         lessons:'',
@@ -56,7 +56,7 @@ export const projects = [{
     },
     {
         name: 'JARVIS',
-        url:'fogoplayer.github.io/Early-Projects/JARVIS',
+        url:'https://fogoplayer.github.io/Early-Projects/JARVIS.html',
         startDate: new Date('2012'),
         endDate: new Date('2013'),
         lessons:'',
@@ -64,7 +64,7 @@ export const projects = [{
     },
     {
         name: 'Spirit Animal Quiz',
-        url:'fogoplayer.github.io/Early-Projects/Quiz',
+        url:'https://fogoplayer.github.io/Early-Projects/Quiz.html',
         startDate: new Date('2012'),
         endDate: new Date('2013'),
         lessons:'',
@@ -72,7 +72,7 @@ export const projects = [{
     },
     {
         name: 'LDSYouth',
-        url:'fogoplayer.github.io/LDSYouth',
+        url:'https://fogoplayer.github.io/LDSYouth',
         startDate: new Date('Sept 28, 2017'),
         endDate: new Date('March 25 2018'),
         lessons:'MaterializeCSS',
@@ -80,7 +80,7 @@ export const projects = [{
     },
     {
         name: 'swarm',
-        url:'fogoplayer.github.io/swarm',
+        url:'https://fogoplayer.github.io/swarm',
         startDate: new Date('May 31 2017'),
         endDate: new Date('May 22 2018'),
         lessons:'Service Worker, Git CLI, Python, Django, Web Geolocation, Heroku, Algorithm Design, CORS',
@@ -88,7 +88,7 @@ export const projects = [{
     },
     {
         name: 'Web-Mirror',
-        url:'fogoplayer.github.io/web-mirror',
+        url:'https://fogoplayer.github.io/web-mirror',
         startDate: new Date('June 9 2018'),
         endDate: new Date('June 26 2018'),
         lessons:'getUserMedia API, visibility API, PWABuilder',
@@ -96,7 +96,7 @@ export const projects = [{
     },
     {
         name: 'LDS Youth (React)',
-        url:'fogoplayer.github.io/lds-youth-react',
+        url:'https://fogoplayer.github.io/lds-youth-react',
         startDate: new Date('July 1 2018'),
         endDate: 'PRESENT',
         lessons:'ReactJS, react-router, Firebase',
@@ -104,7 +104,7 @@ export const projects = [{
     },
     {
         name: 'The Legend of Chica: Golden Guardian',
-        url:'fogoplayer.github.io/legend-of-chica/',
+        url:'https://fogoplayer.github.io/legend-of-chica/',
         startDate: new Date('April 6, 2018'),
         endDate: 'PRESENT',
         lessons:'Phaser 3, Arrow functions, Modules, Classes',
@@ -112,7 +112,7 @@ export const projects = [{
     },
     {
         name: 'Portfolio',
-        url:'fogoplayer.github.io/',
+        url:'https://fogoplayer.github.io/',
         startDate: new Date('July 4, 2018'),
         endDate: new Date('July 5, 2018'),
         lessons:'',

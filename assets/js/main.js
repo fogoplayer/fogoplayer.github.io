@@ -1,7 +1,4 @@
-import {
-    projects
-}
-from './projects.js';
+import { projects } from './projects.js';
 
 //This is the service worker with the Cache-first network
 
@@ -24,12 +21,14 @@ projects.sort(function(a,b){
     return -1;
 });
 projects.forEach(project => {
-
+    
+    //Cards
     const column = document.createElement('div');
     column.className = "col s12 m6 l4";
 
     const card = document.createElement('div');
     card.className = "card";
+    card.id=project.url.split('/')[3];
 
         const image = document.createElement('div');
         image.className = "card-image waves-effect waves-block waves-light";
@@ -58,7 +57,8 @@ projects.forEach(project => {
                 <br><br>
                 ${ project.description }
                 <br>
-                <a href="${ project.url }">View demo</a>`;
+                <a href="${ project.url }">View demo</a>
+                `;
 
             
             description.appendChild(revealTitle);
@@ -71,4 +71,21 @@ projects.forEach(project => {
     column.appendChild(card);
 
     body.appendChild(column);
+    
+    //Nav
+    const nav = document.getElementById('slide-out');
+    const li = document.createElement('li');
+    li.onclick = function() {
+        const instance = M.Sidenav.getInstance(nav);
+        instance.close();
+    };
+                                                                            console.log(project.name, project.url.split('/')[3]);
+    li.innerHTML=`<a href="#${ project.url.split('/')[3] }">${ project.name }</a>`;
+    nav.appendChild(li);
 });
+
+// function openNav(){
+//     const nav = document.getElementById('slide-out');
+//     const instance = M.Sidenav.getInstance(nav);
+//     instance.open();
+// }

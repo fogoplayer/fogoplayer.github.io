@@ -35,7 +35,7 @@ export const projects = [{
     description: 'An incredibly simple REPL because the DevTools console was blocked on school computers. Since discovering other, more fully-featured REPLs (mostly by virtue of learning what a REPL is, this project has been abandoned.',
 }, {
     name: 'HTML Template',
-    url: 'https://fogoplayer.github.io/',
+    url: 'https://fogoplayer.github.io/html-template',
     startDate: 'Jan 27, 2018',
     endDate: 'Jan 27, 2018',
     lessons: '',
@@ -43,7 +43,7 @@ export const projects = [{
 }, {
     name: 'CYOA',
     longName: 'Choose Your Own Adventure',
-    url: 'https://https://fogoplayer.github.io/Early-Projects/Choose%20Your%20Own%20Adventure.html',
+    url: 'https://fogoplayer.github.io/Early-Projects/Choose%20Your%20Own%20Adventure.html',
     startDate: '2012',
     endDate: '2013',
     lessons: '',

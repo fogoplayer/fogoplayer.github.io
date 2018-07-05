@@ -29,7 +29,7 @@ projects.forEach(project => {
     column.className = "col s12 m6 l3";
 
     const card = document.createElement('div');
-    card.className = "card blue-grey darken-1";
+    card.className = "card";
 
         const image = document.createElement('div');
         image.className = "card-image waves-effect waves-block waves-light";

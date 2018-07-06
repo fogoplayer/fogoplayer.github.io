@@ -1,11 +1,13 @@
 {
     "name": "Zarin Loosli",
     "short_name": "Zarin Loosli",
-    "icons": {
-        "16": "../images/16.png",
-        "48": "../images/48.png",
-        "128": "../images/128.png",
-    },
+    "icons": [
+        {
+            "src":"assets/images/zarin.svg",
+            "type":"image/svg",
+            "sizes":"16x16 48x48 128x128 256x256",
+        },
+    ],
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#000",

@@ -37,9 +37,9 @@ export const projects = [{
     name: 'HTML Template',
     url: 'https://fogoplayer.github.io/html-template',
     startDate: 'Jan 27, 2018',
-    endDate: 'Jan 27, 2018',
+    endDate: 'July 5, 2018',
     lessons: '',
-    description: 'My boilerplate for building web apps. Needs to be updated.',
+    description: 'My boilerplate for building web apps.',
 }, {
     name: 'CYOA',
     longName: 'Choose Your Own Adventure',

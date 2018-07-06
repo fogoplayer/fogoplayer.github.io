@@ -104,7 +104,7 @@ export const projects = [{
     startDate: 'July 4, 2018',
     endDate: 'July 5, 2018',
     lessons: '',
-    description: 'I finally got around to building a personal portfolio, and I took that opportunity to explore an idea I\'d been considering for a while: could I take material design and, by changing only the color scheme, create a scifi UI?',
+    description: 'I finally got around to building a personal portfolio',
 }, {
     name: 'Blockeddd',
     url: 'https://launch.playcanvas.com/611199?debug=true',
@@ -112,4 +112,11 @@ export const projects = [{
     endDate: 'May 25, 2018',
     lessons: 'PlayCanvas, Sort-search algorithms, Prototyping',
     description: 'My final project for my AP Computer Science (Java) class, Blockeddd is a 3D third-person shooter game. Four other students and I, many of whom didn\'t know JavaScript at the beginning of the project, worked for a month to build it.',
-}, ];
+}, {
+    name: 'futuristic-materialize',
+    url: 'https://launch.playcanvas.com/611199?debug=true',
+    startDate: 'July 5, 2018',
+    endDate: 'PRESENT',
+    lessons: 'CSS Variables, for-in loops, Markdown',
+    description: 'This project began as a few tweaks to my own materialize.css folder to make a dark theme for my personal site, but it quickly spiraled from there. I used CSS variables to create a fork of MaterializeCSS with an epic sci-fi style interface.',
+}];

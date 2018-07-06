@@ -6,7 +6,7 @@
             "src":"assets/images/zarin.svg",
             "type":"image/svg",
             "sizes":"16x16 48x48 128x128 192x192 256x256 512x512",
-        },
+        }
     ],
     "start_url": "index.html",
     "display": "standalone",

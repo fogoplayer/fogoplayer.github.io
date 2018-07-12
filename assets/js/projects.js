@@ -116,7 +116,7 @@ export const projects = [{
     name: 'futuristic-materialize',
     url: 'https://launch.playcanvas.com/611199?debug=true',
     startDate: 'July 5, 2018',
-    endDate: 'PRESENT',
-    lessons: 'CSS Variables, for-in loops, Markdown',
+    endDate: 'July 11, 2018',
+    lessons: 'CSS Variables and Combinators, for-in loops, Markdown, Github releases, Git reset, jsDelivr',
     description: 'This project began as a few tweaks to my own materialize.css folder to make a dark theme for my personal site, but it quickly spiraled from there. I used CSS variables to create a fork of MaterializeCSS with an epic sci-fi style interface.',
 }];

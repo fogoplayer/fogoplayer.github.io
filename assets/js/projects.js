@@ -114,7 +114,7 @@ export const projects = [{
     description: 'My final project for my AP Computer Science (Java) class, Blockeddd is a 3D third-person shooter game. Four other students and I, many of whom didn\'t know JavaScript at the beginning of the project, worked for a month to build it.',
 }, {
     name: 'futuristic-materialize',
-    url: 'https://launch.playcanvas.com/611199?debug=true',
+    url: 'https://fogoplayer.github.io/materialize',
     startDate: 'July 5, 2018',
     endDate: 'July 11, 2018',
     lessons: 'CSS Variables and Combinators, for-in loops, Markdown, Github releases, Git reset, jsDelivr',

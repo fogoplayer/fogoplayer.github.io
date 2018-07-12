@@ -14,7 +14,7 @@ export const projects = [{
     description: 'A refined version of sCalc, Coyote brought a refined design based on Material Design and new features like basic algebra.',
 }, {
     name: 'Hamilton Karaoke',
-    url: 'https://fogoplayer.github.io/karaoke',
+    url: 'https://fogoplayer.github.io/karaoke/hamilton.html',
     startDate: 'Oct 26, 2016',
     endDate: 'Nov 1, 2016',
     lessons: 'Single Page Applications, YouTube API, @media tags',
@@ -102,7 +102,7 @@ export const projects = [{
     name: 'Portfolio',
     url: 'https://fogoplayer.github.io/',
     startDate: 'July 4, 2018',
-    endDate: 'July 5, 2018',
+    endDate: 'July 12, 2018',
     lessons: '',
     description: 'I finally got around to building a personal portfolio',
 }, {

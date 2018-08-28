@@ -88,7 +88,7 @@ export const projects = [{
     url: 'https://fogoplayer.github.io/lds-youth-react',
     startDate: 'July 1 2018',
     endDate: 'PRESENT',
-    lessons: 'ReactJS, react-router, Firebase',
+    lessons: 'ReactJS, react-router, Firebase, NPM, Webpack, http-server',
     description: 'Pretty much as soon as LDSYouth had hit minimum viable product, I knew it would need a rewrite. I spent too much time going through each file tweaking things. I wanted to rebuild it with an app shell model, and with Firebase integration to allow for device sync and notifications.',
 }, {
     name: 'The Legend of Chica',

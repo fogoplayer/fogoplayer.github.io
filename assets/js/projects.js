@@ -85,7 +85,7 @@ export const projects = [{
     description: 'I wanted a mirror app, but I wasn\'t happy with any of the ones I found. Native apps were too big, web apps were not fullscreen or offline-capable. So I built my own in an evening (and then made a few tweaks later).',
 }, {
     name: 'LDS Youth (React)',
-    url: 'https://fogoplayer.github.io/lds-youth-react',
+    url: 'https://ldsyouth-195000.firebaseapp.com/',
     startDate: 'July 1 2018',
     endDate: 'PRESENT',
     lessons: 'ReactJS, react-router, Firebase, NPM, Webpack, http-server',

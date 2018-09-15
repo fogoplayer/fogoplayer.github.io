@@ -95,9 +95,9 @@ export const projects = [{
     longName: 'The Legend of Chica: Golden Guardian',
     url: 'https://fogoplayer.github.io/legend-of-chica/',
     startDate: 'April 6, 2018',
-    endDate: 'PRESENT',
+    endDate: 'Aug 17, 2018',
     lessons: 'Phaser 3, Arrow functions, Modules, Classes',
-    description: 'My friend approached me and asked if I\'d be willing to help her code a game she was writing. Without hesitation, I said yes.',
+    description: 'My friend approached me and asked if I\'d be willing to help her code a game she was writing. Without hesitation, I said yes, though she later lost interest, leaving the project incomplete.',
 }, {
     name: 'Portfolio',
     url: 'https://fogoplayer.github.io/',
@@ -119,4 +119,11 @@ export const projects = [{
     endDate: 'July 11, 2018',
     lessons: 'CSS Variables and Combinators, for-in loops, Markdown, Github releases, Git reset, jsDelivr',
     description: 'This project began as a few tweaks to my own materialize.css folder to make a dark theme for my personal site, but it quickly spiraled from there. I used CSS variables to create a fork of MaterializeCSS with an epic sci-fi style interface.',
+}, {
+    name: 'ZTasks',
+    url: '',
+    startDate: 'Sept 7, 2018',
+    endDate: 'PRESENT',
+    lessons: 'CSS Cursors',
+    description: 'I had tried every todo app I could find, and I was unsatisfied with all of them... so I built my own. It was also an opportunity to build a real-world application using futuristic-materialize, and I\'m happy to say that it held up well.',
 }];

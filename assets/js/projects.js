@@ -168,10 +168,10 @@ export const projects = [
     name: "Pens",
     url: "https://fogoplayer.github.io/pens",
     startDate: "Sept 18, 2020",
-    endDate: "May 18, 2021",
+    endDate: "Jun 6, 2021",
     lessons:
       "Bash Scripting, CSS Transform, CSS Transition, Google Apps Script, Bookmarklets",
     description:
-      "This is a collection of quick-and-dirty projects that I've made over the years to learn new concepts or solve a particular problem. They're not supposed to be finished products--they're supposed to solve a very narrow problem."
+      "This is a collection of quick-and-dirty projects (bookmarklets and quick HTML files) that I've made over the years to learn new concepts or solve a particular problem. They're not supposed to be finished products--they're supposed to solve a very narrow problem."
   }
 ];

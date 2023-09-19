@@ -175,7 +175,7 @@ export const projects = [
   },
   {
     name: "Wikiguessr",
-    url: "wikiguessr.zarinloosli.com",
+    url: "https://wikiguessr.zarinloosli.com",
     startDate: "July 30, 2022",
     endDate: "PRESENT",
     lessons: "Web Components, LitElement, RTC",
@@ -183,7 +183,7 @@ export const projects = [
   },
   {
     name: "Gravitate",
-    url: "beta.gravitate.zarinloosli.com",
+    url: "https://beta.gravitate.zarinloosli.com",
     startDate: "April 30, 2022",
     endDate: "Dec 24,2022",
     lessons: "Virtal DOM, htm, web components",

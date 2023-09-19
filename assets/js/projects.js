@@ -192,7 +192,7 @@ export const projects = [
   },
   {
     name: "Dynamic Tabs",
-    url: "https://fogoplayer.github.io/",
+    url: "https://github.com/fogoplayer/dynamic-tabs",
     startDate: "Sep 5, 2022",
     endDate: "PRESENT",
     lessons: "Chrome Extensions, Ionic",

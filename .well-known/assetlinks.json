@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zarinloosli.twa",
+      "sha256_cert_fingerprints": [
+        "EE:07:CB:D0:22:7C:26:DE:CB:D9:9B:54:8F:1D:76:32:B9:D8:B5:96:00:7D:F1:21:7A:2C:89:95:85:8A:EC:86"
+      ]
+    }
+  }
+]
